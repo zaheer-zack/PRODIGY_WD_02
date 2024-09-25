@@ -1,0 +1,83 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #e771ef, #00d4ff);
+    color: #333;
+    margin: 0;
+}
+
+.container {
+    background: #fff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    width: 100%;
+    max-width: 500px;
+}
+
+header .logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: #6f3b67;
+    margin-bottom: 20px;
+}
+
+#display {
+    font-size: 64px;
+    margin-bottom: 30px;
+    color: #333;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.control-btn {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #cc91f6;
+    color: #fff;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+.control-btn:hover {
+    background-color: #0056b3;
+}
+
+.control-btn:active {
+    transform: scale(0.98);
+}
+
+.laps {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.laps div {
+    background: #f8f8f8;
+    color: #007bff;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border-left: 4px solid #007bff;
+    font-weight: bold;
+}
